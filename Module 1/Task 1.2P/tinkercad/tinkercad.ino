@@ -18,12 +18,9 @@ void loop() {
       Serial.println("Motion Not Detected");
     }
   }
-  delay(1000);
-}
-
-void toggle(){
   
+void toggle()
+{
   led_state = !led_state;
   digitalWrite(13, led_state);
-  
 }
